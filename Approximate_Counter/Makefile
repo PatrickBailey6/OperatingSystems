@@ -1,5 +1,5 @@
 sSim: sloppySim.cc 
-	g++ -pthread thread_args.cc -o sloppySim
+	g++ -pthread sloppySim.cc -o sloppySim
 
 clean:
 	rm sloppySim
