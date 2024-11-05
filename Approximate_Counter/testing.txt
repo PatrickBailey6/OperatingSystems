@@ -1,0 +1,66 @@
+Testing various different situations:
+./sloppySim 4 5 10 1000 false true
+    Running with:
+    4
+    10
+    10
+    1000
+    0
+    0
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Final global count: 3970
+
+    0.03s user 0.06s system 0% cpu 22.804 total
+
+./sloppySim 4 5 10 1000 true true
+    Running with:
+    4
+    5
+    10
+    1000
+    0
+    0
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Final global count: 3980
+
+    0.03s user 0.05s system 0% cpu 22.444 total
+
+./sloppySim 30 5 10 1000 false true
+    Running with:
+    30
+    5
+    10
+    1000
+    0
+    0
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Global count = 28672
+    Final global count: 29805
+    
+    0.12s user 0.30s system 1% cpu 22.772 total
